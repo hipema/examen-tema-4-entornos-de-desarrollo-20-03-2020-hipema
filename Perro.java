@@ -8,7 +8,7 @@ public class Perro {
 	}
 
 	void ladrar() {
-		System.out.println("ladra");
+		System.out.println(ladra);
 	}
 
 }
