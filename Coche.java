@@ -1,15 +1,10 @@
 /**
- * @author Jaime Rabasco Ronda
- */
-/*Refactorización
-Extrae una superclase Vehículo con los campos
-	num_serie
-	fabricante
-	color
-y los métodos
-	getNum_serie(), setNum_serie()
-	getFabricante(), setFabricante()
-	getColor(), setColor()*/
+  * Clase coche del examen De Entornos de Desarrollo
+  * 
+  * @author manuelhidalgo
+  * @version1.0
+  */
+
 enum Color {
 	ROJO, AZUL, VERDE, AMARILLO, NARANJA
 };
@@ -23,11 +18,21 @@ public class Coche extends Vehiculo {
 		this.color = color;
 	}
 
+	/**
+	 * Método que devuelve la cilndrada de un objeto coche.
+	 *
+	 * @return devuelve un entero con la cilindrada.
+	 */
 	public int getCilindrada() {
+	
 		return cilindrada;
 	}
 
-
+	/**
+	 * Método que permite cambiar la cilndrada de un objeto.
+	 * 
+	 * @param cilindrada valor entero.
+	 */
 	public void setCilindrada(int cilindrada) {
 		this.cilindrada = cilindrada;
 	}
